@@ -8,7 +8,7 @@
 <body>
     <body><header>
         <nav  class="navbar">
-            <h2 class="nav-logo">Ice cream</h2>
+            <h2 class="nav-logo">Sweet Cream</h2>
             <ul class="nav-menu">
                 <li class="nav-item">
                 <a href="#" class="nav-link">Home</a>
@@ -25,15 +25,216 @@
             </ul>
     </nav>
     </header>
-    <section class="title">
+    
+     <section class="title">
     <div class="title-text">
         <h1>Sweet Moments,<span>Frozen Delights</span></h1>
     <p>Discover the joy of every scoop</p><br><br>
-    <button class="ice-btn">order now</button></div>
-    </div></section><br><br><br><br><br>
+    <button class="btn">order now</button></div>
+    </div></section>
+    <br><br><br><br><br> 
     
     
-    <h1 class="item3">Items</h1>
+    <section class="about1">
+        <!-- <div class="about-image">
+        <img src="j.jpg" alt="Ice Cream Shop">
+    </div><br><br> -->
     
+    <div class="about-content">
+        <h2 class="about-us" id="#">About Us</h2><br><br>
+        <h3 class="about-us">Sweet Moments, Made with Love!</h3><br>
+    
+        <p class="paraghragh">
+            Welcome to our little ice cream world!<br>
+            We believe every scoop should bring happiness.<br>
+            Our ice creams are made with love, fresh
+            ingredients, and delicious flavors.
+        </p>
+    
+        <a href="#menu" class="about-btn">Explore Our Menu</a>
+    </div>
+    </section><br><br><br>
+    
+    <h1 class=“main-title”>Explore Our Flavors</h1>
+    
+    <section class="categories">
+    
+        <div class="category-card pink">
+    
+            <h2>Ice Cream</h2>
+    
+            <img src="h1.jpg" alt="Ice Cream">
+    
+            <p>Delicious & Creamy</p>
+    
+            
+    
+        </div>
+    
+        <div class="category-card beige">
+    
+            <h2>Ice Pops</h2>
+    
+            <img src="h2.jpg" alt="Ice Pops">
+    
+            <p>Fresh & Fruity</p>
+    
+           
+    
+        </div>
+    
+        <div class="category-card purple">
+    
+            <h2>Ice Cream Desserts</h2>
+    
+            <img src="h3.jpg"alt="Ice Cream Desserts">
+    
+            <p>Sweet Moments for You</p>
+    
+            
+    
+        </div>
+    
+    </section>
+    
+    <div class="order-title">
+        <h1>Order Items</h1>
+        <p>Choose Your Favorite Ice Cream</p>
+    </div>
+    
+    <div class="swiper orderSwiper">
+    
+        <div class="swiper-wrapper">
+    
+            <div class="swiper-slide order-card">
+                <img src="5.jpg" alt="Chocolate Ice Cream">
+                <h2>Chocolate Ice Cream</h2>
+                <p class="price">$5.00</p>
+                <button>Order Now</button>
+            </div>
+    
+        
+            <div class="swiper-slide order-card">
+                <img src="6.jpg" alt="Strawberry Ice Cream">
+                <h2>Strawberry Ice Cream</h2>
+                <p class="price">$4.50</p>
+                <button>Order Now</button>
+            </div>
+    
+            
+            <div class="swiper-slide order-card">
+                <img src="2.jpg" alt="Vanilla Ice Cream">
+                <h2>Vanilla Ice Cream</h2>
+                <p class="price">$4.00</p>
+                <button>Order Now</button>
+            </div>
+    
+            <div class="swiper-slide order-card">
+                <img src="1.jpg" alt="Oreo Ice Cream">
+                <h2>Oreo Ice Cream</h2>
+                <p class="price">$5.50</p>
+                <button>Order Now</button>
+            </div>
+    
+            
+            <div class="swiper-slide order-card">
+                <img src="8.jpg" alt="Caramel Ice Cream">
+                <h2>Caramel Ice Cream</h2>
+                <p class="price">$6.00</p>
+                <button>Order Now</button>
+            </div>
+    
+            <div class="swiper-slide order-card">
+                <img src="5.jpg" alt="Caramel Ice Cream">
+                <h2>Caramel Ice</h2>
+                <p class="price">$3.00</p>
+                <button>Order Now</button>
+            </div>
+    
+            <div class="swiper-slide order-card">
+                <img src="7.jpg" alt="Caramel Ice Cream">
+                <h2>oreo Cream</h2>
+                <p class="price">$2.00</p>
+                <button>Order Now</button>
+            </div>
+    
+            <div class="swiper-slide order-card">
+                <img src="3.jpg" alt="Caramel Ice Cream">
+                <h2>Caramel Ice Cream</h2>
+                <p class="price">$6.00</p>
+                <button>Order Now</button>
+            </div>
+    
+            <div class="swiper-slide order-card">
+                <img src="9.jpg" alt="Caramel Ice Cream">
+                <h2>Ice Dessert</h2>
+                <p class="price">$6.00</p>
+                <button>Order Now</button>
+            </div>
+    
+        </div>
+    
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    
+    </div>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script>
+    
+    const orderSwiper = new Swiper(".orderSwiper", {
+    
+        direction: "horizontal",
+    
+        slidesPerView: 3,
+    
+        spaceBetween: 30,
+    
+        loop: true,
+    
+        speed: 800,
+    
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+    
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    
+    });
+    
+    </script>
+    <br><br><br>
+    
+    <div class="footer-container">
+    
+        <div class="footer-box">
+            <h2>Sweet Ice Cream</h2>
+            <p>
+                Making every moment sweeter!
+                Enjoy our delicious ice creams
+                made with love and fresh ingredients.
+            </p>
+        </div>
+    
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </div>
+    
+        <div class="footer-box">
+            <h3>Contact Us</h3>
+            <p><i class='bx bx-map'></i> Herat, Afghanistan</p>
+            <p><i class='bx bx-phone'></i> +93 700 000 000</p>
+            <p><i class='bx bx-envelope'></i> sweeticecream@gmail.com</p>
+        </div>
+    </div> 
 </body>
 </html>
