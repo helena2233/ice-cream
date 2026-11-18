@@ -4,14 +4,11 @@
     box-sizing: border-box;
     }
     body{
-    scroll-behavior: smooth;   
-    }
-
-    body{
     background-color: #ddc7a7;
     font-family: Georgia, 'Times New Roman', Times, serif;
     }
-    ul{ list-style: none; }section, .order-title, .main-title, footer{
+    ul{ list-style: none; }
+    section, .order-title, .main-title, footer{
     scroll-margin-top: 90px;
     }
   
