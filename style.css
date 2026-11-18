@@ -473,7 +473,7 @@ font-size: 18px;
        max-width: 100%;
     }
     .category-card {
-        width: calc((100% 16px) / 3);
+        width: calc((98px 16px)/3);
         height:190px;
         padding: 8px 4px;
     }
