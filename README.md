@@ -18,4 +18,3 @@ A sweet, responsive ice cream shop website built with HTML, CSS, and JavaScript.
    ```bash
    git clone https://github.com/helena2233/ice-cream.git
 My site
-https://helena2233.github.io/ice-cream/
