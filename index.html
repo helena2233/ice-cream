@@ -183,23 +183,44 @@ href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
     const orderSwiper = new Swiper(".orderSwiper", {
-        direction: "horizontal",
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        speed: 800,
-        grabCursor:true,
-        autoplay: {
-            delay: 2500,
-        },
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-            640:  { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-        },
-    });
+direction: "horizontal",
+slidesPerView: 3,
+spaceBetween: 8,
+loop: true,
+speed: 800,
+grabCursor: true,
+
+autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+},
+
+navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+},
+
+pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+},
+
+breakpoints: {
+    0: {
+        slidesPerView: 3,
+        spaceBetween: 8
+    },
+
+    600: {
+        slidesPerView: 3,
+        spaceBetween: 15
+    },
+
+    1024: {
+        slidesPerView: 3,
+        spaceBetween: 30
+    }
+}
+});
 </script> 
 </body>
